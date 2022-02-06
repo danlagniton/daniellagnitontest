@@ -1,0 +1,25 @@
+#include<iostream>
+
+#include<cstdlib>
+
+using namespace std;
+
+int main(){
+
+    srand((unsigned) time(NULL)); 
+
+    // Using for loop
+
+    for(int x=0; x<10; x++){        
+
+        // Offset 100 and range 201 to generate random numbers between 100 and 300
+
+        int random = 100 + (rand() % 201);
+
+        cout<<random<<"   ";
+
+    }
+
+    return 1;
+
+}
